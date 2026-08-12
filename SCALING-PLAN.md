@@ -1,7 +1,8 @@
-# Portfolio Scaling Plan — Four Businesses, One Operator
+# Portfolio Scaling Plan — Three Groups, One Operator
 
 **Prepared:** August 2026
-**Scope:** LV Korea Desk · Meat Trading Hub · Nexus8234 · Global Women in Korea
+**Scope:** LV Trading (Meat Trading Hub · K-food · Chemicals) · LV Korea Desk /
+LV Global · Nexus8234 · Global Women in Korea · weekend dating events
 
 > **Assumptions stated up front.** I have not seen revenue, headcount, pipeline, or
 > the Nexus8234 partnership terms. Everything below is a target architecture and an
@@ -34,16 +35,114 @@ beneath it supports.
 
 ---
 
-## 2. Honest triage
+## 2. The structure — three groups, not seven businesses
 
-| Business | What it is today | Verdict |
-| --- | --- | --- |
-| **Meat Trading Hub** | The only unit that transacts. Per-container margin, repeatable, systematizable, does not require the founder's name | **Cash engine** |
-| **LV Korea Desk** | Retainers, succession mandates, Kimchi & Capital. Highest ceiling, longest cycle, most founder-dependent | **Compounding engine** |
-| **Nexus8234** | Paused. 50/50 economics with a co-founder. Gated on one binary event | **Option, not a business** |
-| **Global Women in Korea** | Audience and credibility. No revenue line | **Asset, not a P&L** |
+Consolidating the physical-goods businesses under **LV Trading**, with Meat Trading Hub
+demoted from company to brand, is the correct move and the first real consolidation in
+the portfolio. Trading houses are built exactly this way: one back office, several
+product lines.
 
-One business that transacts. One that could compound. Two that are currently marketing.
+| Group | Contains | Economic model | Verdict |
+| --- | --- | --- | --- |
+| **LV Trading** | Meat Trading Hub · K-food · Chemicals | Margin on volume. Delegable. | **Cash engine** |
+| **LV Korea Desk / LV Global** | Advisory · succession M&A · Kimchi & Capital · Nexus8234 (dormant) | Fees on access. High margin. | **The asset** |
+| **Community** | Global Women in Korea + weekend dating events | Tickets and sponsors | **Audience, cost-capped** |
+
+GWK and the dating events serve the same audience — internationals in Korea — through
+the same operating motion: fill a room, run an event, find a sponsor. They are one
+business, not two.
+
+**A capability worth naming.** Across GWK workshops, Nexus delegations, Korea Innovation
+Week and dating events, the same skill recurs: filling rooms. It is worth more
+concentrated in one place than spread across four brands.
+
+---
+
+## 2a. LV Trading — where the structure breaks
+
+The three lines share a **commercial** spine: source, match, take margin. They do not
+share the **compliance** spine, which is where thin-margin trading businesses actually
+fail.
+
+| Line | What it actually requires |
+| --- | --- |
+| Meat | EU plant approvals, MFDS registration, cold chain, shelf life, veterinary certs |
+| K-food | Opposite direction. Export customs, per-destination labelling, different shelf-life regimes, different buyers |
+| Chemicals | REACH and K-REACH, hazmat classification, UN packaging, MSDS, and a liability profile unrelated to food |
+
+**Build the entity now. Run the lines in sequence, not in parallel.**
+
+### Sequence by evidence, not by attractiveness
+
+Live counterparties today: **meat and chemicals**. K-food has none.
+
+1. **Meat — build the line.** Most built out, live deals, existing offer scoring and
+   reply handling.
+2. **Chemicals — execute the deal, do not build the line.** One live deal is not a
+   product line. Do not build K-REACH registration, hazmat classification and packaging
+   infrastructure behind a single transaction until there is a second and a third.
+3. **K-food — parked** until a named buyer exists. Strategically the most attractive of
+   the three (Korea residency is the sourcing moat, and the demand tailwind is real),
+   and currently the least evidenced. Attractiveness does not outrank evidence.
+
+### Title versus agency — decide before the chemicals deal, not during
+
+- **Taking title** (buy and resell): carries working capital, storage, and full product
+  liability. On hazmat, at trading margins, at this company size, a single incident is
+  existential.
+- **Agency / commission** (introduce and take a fee): no capital, no title, no liability
+  chain. Keeps most of the economics and almost none of the risk.
+
+Establish who the importer of record is, who owns goods in transit, and what insurance
+covers — before signing. The same question applies to meat, where it governs working
+capital rather than liability.
+
+---
+
+## 2b. The revenue trap
+
+**€5M of trading revenue and €5M of advisory revenue are not the same business.**
+
+- Trading at 3% margin on €5M → roughly **€150k** gross profit
+- Advisory at €5M → **€3M+** contribution
+
+Trading is the fastest route to a large top-line figure and the slowest route to owner
+earnings. It also consumes working capital: goods are financed before payment lands, and
+that constraint tightens with growth.
+
+Assign the roles explicitly. **LV Trading generates cash and volume. LV Korea Desk
+generates margin and enterprise value.** Trading funds the desk. The desk is what a
+buyer eventually acquires.
+
+---
+
+## 2c. The portfolio metric — contribution per founder-hour
+
+When the binding constraint is one person's time, profit is the wrong ranking. Rank
+every activity by contribution per founder-hour, on one scale.
+
+*Illustrative placeholders — replace with actuals.*
+
+| Activity | Contribution | Founder hours | Per hour |
+| --- | --- | --- | --- |
+| Succession mandate | €200k success fee | ~200 | **€1,000** |
+| Korea Desk retainer | €10k/month | ~20 | **€500** |
+| Meat container | €1,500 margin | ~6 | **€250** |
+| Chemicals deal (agency) | ? | ? | ? |
+| Weekend dating event | €500 | ~12 | **€42** |
+| GWK workshop | €0 | ~10 | credibility only |
+
+A weekend event netting €500 is profitable and simultaneously the weakest trade in the
+portfolio by roughly 20x, while consuming the one resource that cannot be bought:
+recovery time.
+
+**Decision test for the dating events** (currently too early to judge): run three more,
+measure contribution per hour honestly, and set the bar at the value of a Korea Desk
+hour. Clear it, and keep it with operations handed to someone else. Miss it, and it
+merges into GWK as a sponsor-funded community event, or it stops. Set the date now.
+
+This same table decides everything else: which trading line to push, when to hire, what
+to drop.
 
 ---
 
@@ -79,12 +178,14 @@ businesses consume more attention than closed ones.
 
 ## 4. Allocation for the next two quarters
 
-| Share | Business | Rationale |
+| Share | Group | Rationale |
 | --- | --- | --- |
-| **70%** | LV Korea Desk | The only engine building an asset that outlives the founder's calendar |
-| **25%** | Meat Trading Hub | Funds everything else. Unlike advisory, it can be handed to an operator on commission |
+| **60%** | LV Korea Desk / LV Global | The only engine building an asset that outlives the founder's calendar |
+| **35%** | LV Trading — meat line, plus executing the live chemicals deal | Funds everything else. Unlike advisory, it can be handed to an operator on commission |
 | **5%** | Nexus8234 | Maintain relationships, sell one-yes products only. Nothing more until a paid project lands |
-| **0 hrs** | Global Women in Korea | Keep the face role, hand operations to volunteers, fund with sponsors |
+| **0 hrs** | Community (GWK + dating events) | Keep the face role, hand operations to volunteers and an operator, fund with sponsors |
+
+K-food receives no allocation until a named buyer exists.
 
 ---
 
@@ -114,13 +215,16 @@ require exactly this skillset.
   Indicative €10k/month + 3%.
 - Volume: 2–3 closes per year at maturity.
 
-### Engine 3 — Transactional margin (Meat Trading Hub)
+### Engine 3 — Transactional margin (LV Trading)
 
 The least glamorous engine and the most reliable. Per-container margin, recurring
-volume, and the only unit in the portfolio that can be fully delegated to a
+volume, and the only group in the portfolio that can be fully delegated to a
 commission-only operator.
 
-Under-investment here is a status decision, not a commercial one. Correct it.
+Under-investment here is a status decision, not a commercial one. Correct it — but read
+sections 2a and 2b first. This engine is judged on **gross profit and working capital
+turns**, never on revenue. A large top line at 3% margin is a vanity number that
+consumes cash to produce.
 
 ---
 
@@ -173,7 +277,9 @@ credibility signal; underpricing disqualifies you from the buyer you want.
 
 | Weeks | Action | Output |
 | --- | --- | --- |
-| 1–2 | Set the Nexus8234 decision date. Move GWK operations to volunteers. | Two attention drains closed |
+| 1–2 | Set the Nexus8234 decision date. Set the dating-events decision date and bar. Move community operations to volunteers. | Three attention drains closed |
+| 1–2 | Settle title-versus-agency and insurance on the live chemicals deal | Liability capped before signature |
+| 1–2 | Build the contribution-per-founder-hour table with real numbers | The ranking that drives every later decision |
 | 1–2 | Publish three SKUs with prices | Prospects self-qualify before first call |
 | 3–6 | Build a named list of 40 targets — family offices, EU manufacturers with Korea exposure, Korean SME succession candidates. Enrich and track in CRM. | Pipeline exists as data, not memory |
 | 5–8 | Sell one-yes Nexus products only: one PoC, one retainer | Nexus8234 unpauses on evidence, not hope |
