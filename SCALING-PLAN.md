@@ -1,199 +1,210 @@
-# Scaling Plan — From Operator-Bound Services to a €5M Corridor Business
+# Portfolio Scaling Plan — Four Businesses, One Operator
 
 **Prepared:** August 2026
-**Scope:** LV Global portfolio — LV Korea Desk, Nexus8234, Meat Trading Hub, Global Women in Korea
+**Scope:** LV Korea Desk · Meat Trading Hub · Nexus8234 · Global Women in Korea
 
-> **Assumptions stated up front.** I have not seen current revenue, headcount, or the
-> pipeline. The model below is a *target architecture*, not a forecast off your books.
-> Where I give numbers they are the shape of the business required to reach €5M, and
-> should be re-based once actuals are available.
+> **Assumptions stated up front.** I have not seen revenue, headcount, pipeline, or
+> the Nexus8234 partnership terms. Everything below is a target architecture and an
+> allocation argument, not a forecast off your books. Re-base the numbers once
+> actuals are available.
+>
+> **Supersedes** the earlier version of this document, which was anchored on
+> Nexus8234 and premised on the repository website. Both premises were wrong:
+> Nexus8234 is paused pending a paid project, and the website content was a
+> placeholder, not the company's positioning.
 
 ---
 
-## 1. The positioning defect
+## 1. The pattern
 
-The live site (`index.html`) presents Nexus 82/34 as:
+Four businesses. Four complete locked brand identities — colour systems, service
+variants, proposal templates, deck grammars, separate LinkedIn voices per channel.
 
-> "A multidisciplinary creative studio at the intersection of design, technology,
-> and storytelling." — Services: Brand Identity, Digital Design, Media Production,
-> Creative Strategy.
+The business carrying the most elaborate identity of the four, with named services and
+accent colours drawn from Korean craft, is the one currently paused for lack of a paid
+project.
 
-The actual business is a **Spain–Korea industrial market-access corridor**: Nexus Xplore
-delegations, Nexus Impulse cohorts, Nexus Lab PoC frameworks, Nexus Strategy advisory,
-Korea Innovation Week.
+**The portfolio packages faster than it sells.** Packaging feels like progress, is
+entirely within the operator's control, and is never rejected. Selling is the opposite
+on all three counts. This is the most common reason a capable operator stalls in low
+six figures. It is an allocation problem, not a capability problem.
 
-These are not adjacent categories. They have different buyers, different price points,
-and different ceilings.
+Nothing in the brand system is wrong. There is simply more of it than the revenue
+beneath it supports.
 
-| | Creative studio | Corridor / market access |
+---
+
+## 2. Honest triage
+
+| Business | What it is today | Verdict |
 | --- | --- | --- |
-| Buyer | Marketing manager | Agency director, family office principal, corporate board |
-| Typical deal | €5–15k | €150–400k |
-| Competitive set | Every design shop in Madrid | Almost nobody with 17 years in Korea |
-| Practical ceiling | ~€500k, capped by founder hours | €5M+ |
+| **Meat Trading Hub** | The only unit that transacts. Per-container margin, repeatable, systematizable, does not require the founder's name | **Cash engine** |
+| **LV Korea Desk** | Retainers, succession mandates, Kimchi & Capital. Highest ceiling, longest cycle, most founder-dependent | **Compounding engine** |
+| **Nexus8234** | Paused. 50/50 economics with a co-founder. Gated on one binary event | **Option, not a business** |
+| **Global Women in Korea** | Audience and credibility. No revenue line | **Asset, not a P&L** |
 
-**Secondary defect:** the portfolio is placeholder work (AURORA, VELO, ECHO, MONO, APEX)
-and the stat counters are invented (120 projects / 45 clients / 8 years / 15 awards).
-A family office principal who runs due diligence before a first call finds a design
-studio with fabricated case studies. Real, smaller numbers are strictly more credible
-than large invented ones.
-
-**Action:** rewrite the site around corridor positioning. Remove invented metrics.
-Replace placeholder portfolio with real engagements, or remove the section until real
-ones can be published.
+One business that transacts. One that could compound. Two that are currently marketing.
 
 ---
 
-## 2. The structural diagnosis
+## 3. The Nexus8234 correction
 
-Four brands — LV Korea Desk, Nexus8234, Meat Trading Hub, Global Women in Korea —
-against one founder.
+"Paused until we get the trip" contains the defect.
 
-Each is individually sub-scale for the same reason: **revenue is a function of the
-founder's calendar.** Four positioning statements, four sales motions, four content
-calendars, and no compounding between them.
+**The hardest product in the catalogue has been made the gate on everything else.**
+A twenty-seat delegation requires either twenty simultaneous yeses or a single sponsor
+with a large budget and a slow procurement cycle. It is the most difficult thing here to
+sell cold.
 
-Diversification across four early-stage businesses is a hedge. The cost of the hedge is
-that no single business receives the concentration required to break out.
+### Invert the order
+
+Lead with the **one-yes products**:
+
+- **Nexus Lab** — one PoC, one corporate, one signature. Six to twelve weeks.
+  CDTI and KIAT co-funding pathways already exist.
+- **Nexus Strategy** — one retainer, one institution.
+
+Close five and there are five corporate relationships in hand. At that point the
+delegation is no longer sold to strangers, it convenes existing clients.
+
+**The trip is the upsell, not the entry product.** That single reordering is the
+difference between a paused business and a slow one.
+
+### Set a decision date
+
+If no paid project by a named date, Nexus8234 goes formally dormant. Half-paused
+businesses consume more attention than closed ones.
 
 ---
 
-## 3. Target architecture — three engines
+## 4. Allocation for the next two quarters
 
-Linear services do not reach eight figures. Three engines do: recurring revenue,
-institutional budgets, and deal economics. Run all three.
+| Share | Business | Rationale |
+| --- | --- | --- |
+| **70%** | LV Korea Desk | The only engine building an asset that outlives the founder's calendar |
+| **25%** | Meat Trading Hub | Funds everything else. Unlike advisory, it can be handed to an operator on commission |
+| **5%** | Nexus8234 | Maintain relationships, sell one-yes products only. Nothing more until a paid project lands |
+| **0 hrs** | Global Women in Korea | Keep the face role, hand operations to volunteers, fund with sponsors |
+
+---
+
+## 5. Target architecture — three engines
 
 ### Engine 1 — Recurring intelligence (target €1.4M ARR)
 
-Kimchi & Capital and the LV Intelligence Brief are currently marketing. They should be
-a product.
+Kimchi & Capital and the Intelligence Brief are currently marketing. They should be a
+product.
 
-- **Ladder:** free Substack (top of funnel) → paid individual → institutional license
-  at €25–50k/year.
-- **Institutional buyers:** family offices, EU teams inside Korean corporates, EU
-  manufacturers with Korea exposure, PE funds screening Asia.
-- **Model:** 40 institutional licenses × €35k = **€1.4M ARR**.
-- **Prerequisite:** free list of 15–20k to support 40 institutional conversions.
+- Free Substack → paid individual → **institutional licence at €25–50k/year**
+- Buyers: family offices, EU teams inside Korean corporates, EU manufacturers with
+  Korea exposure, funds screening Asia
+- 40 institutional licences × €35k = **€1.4M ARR**
+- Prerequisite: a free list of 15–20k
 
-**Why this engine matters disproportionately:** it is what makes the company sellable.
-Advisory firms trade at roughly 1–2x revenue. Subscription businesses trade at 5–8x.
-This engine changes the exit multiple on everything else.
+This engine determines the exit multiple on everything else. Advisory firms trade at
+roughly 1–2x revenue; subscription businesses at 5–8x.
 
-### Engine 2 — Programs sold to institutions (target €2.5M)
+### Engine 2 — Deal economics (target €1.5M, lumpy)
 
-The largest and nearest unlock.
+Korean SME succession is a real demographic wave: founders in their seventies with no
+successor, combined with core-technology screening that makes cross-border transactions
+require exactly this skillset.
 
-**Change the buyer.** Stop selling individual seats to SMEs at €5k. Sell the whole
-program to the sponsor.
+- Structure: retainer covers cost, success fee carries upside.
+  Indicative €10k/month + 3%.
+- Volume: 2–3 closes per year at maturity.
 
-- **Spain / EU side:** ICEX, CDTI, ACCIÓ (Catalonia), SPRI (Basque Country),
-  IVACE (Valencia), regional chambers of commerce, SIMEST.
-- **Korea side:** KIAT, KOTRA, KITA, SBA, GDIN.
-- **Corporate sponsors** for branded delegation slots.
+### Engine 3 — Transactional margin (Meat Trading Hub)
 
-One regional agency contract runs **€150–400k**. Ten contracts is €2–4M.
+The least glamorous engine and the most reliable. Per-container margin, recurring
+volume, and the only unit in the portfolio that can be fully delegated to a
+commission-only operator.
 
-The structural advantage: agencies hold annual budgets that must be committed within
-the fiscal year. You are working a *budget calendar*, not a sales cycle — a materially
-easier motion, and one that renews by default rather than by persuasion.
-
-### Engine 3 — Deal economics (target €1M, lumpy)
-
-Korean SME succession is a genuine demographic wave: founders in their seventies with
-no successor, combined with core-technology export screening that makes cross-border
-transactions require precisely this skillset.
-
-- **Structure:** retainer covers cost, success fee carries the upside.
-  Indicative: €10k/month + 3% success fee.
-- **Volume:** 2–3 closes per year.
-- Meat Trading Hub contributes recurring broker margin per container within this engine.
-
-### Total
-
-€1.4M + €2.5M + €1.0M ≈ **€5M**
+Under-investment here is a status decision, not a commercial one. Correct it.
 
 ---
 
-## 4. Structural changes required
+## 6. The honest timeline
 
-### 4.1 Reduce from four businesses to two
+Multimillion inside twelve months from a solo advisory practice is not realistic.
+Thirty-six months is.
 
-- **Global Women in Korea** → marketing asset and community, not a P&L line.
-- **Meat Trading Hub** → dedicated operator on commission-only, or spin out / sell.
-- **Retain and front:** LV Korea Desk (Engines 1 + 3) and Nexus8234 (Engine 2).
+| Year | Revenue | What carries it |
+| --- | --- | --- |
+| **1** | €400–600k | MTH volume, 3–4 Korea Desk retainers, first succession mandate |
+| **2** | €1.2–1.8M | Retainers scale, first institutional licences, one M&A close |
+| **3** | €3–5M | Licensing at scale, 2–3 closes per year, MTH run by an operator |
 
-### 4.2 Single holding brand
+**The step that changes everything sits between Year 1 and Year 2, and it is not a
+sales tactic. It is the first hire.** None of the above happens while every euro routes
+through one calendar.
 
-LV Global is the parent. Nexus8234 becomes the Spain–Korea program arm beneath it.
-Stop maintaining four separate visual identities — that is motion, not progress.
-
-### 4.3 Hire in this order
-
-Each hire buys back founder calendar. Order matters.
+### Hiring order
 
 1. **Korea-side associate** (Korean national, bilingual) — sourcing and relationship
-   maintenance. The Korean network is the hardest constraint in the business and
-   currently cannot scale past personal hours.
-2. **Spain-side business development** — institutional sales is meetings, RFPs, and
-   procurement paperwork. Not founder work.
-3. **Content / operations** — newsletter production, LinkedIn cadence, Folk CRM hygiene.
+   maintenance. The Korean network is the binding constraint and cannot scale past
+   personal hours.
+2. **Commission-only MTH operator** — removes the transactional engine from the
+   founder's calendar entirely.
+3. **Content and operations** — newsletter production, LinkedIn cadence, CRM hygiene.
 
-**Founder retains three activities only:** origination, senior relationships, closing.
-
-### 4.4 Productize
-
-Bespoke scoping is the reason service businesses stall. Publish three SKUs with fixed
-scope and fixed price. Indicative:
-
-| SKU | Price | Duration |
-| --- | --- | --- |
-| Korea Market Entry Diagnostic | €25k | 6 weeks |
-| Korea Innovation Week Delegation (sponsor-funded) | €180k | Annual |
-| Succession Sell-Side Mandate | €10k/mo + 3% success | 9–18 months |
-
-### 4.5 Reprice
-
-Pricing is almost certainly low, and not by 20%. A family office cannot distinguish a
-€5k invoice from noise. Institutional pricing is itself the credibility signal —
-underpricing actively disqualifies you from the buyer you want.
+Founder retains three activities: origination, senior relationships, closing.
 
 ---
 
-## 5. First 90 days
+## 7. Productize
+
+Publish three SKUs with fixed scope and public price. Bespoke scoping is why service
+businesses stall.
+
+| SKU | Indicative price | Duration |
+| --- | --- | --- |
+| Korea Market Entry Diagnostic | €25k | 6 weeks |
+| Succession Sell-Side Mandate | €10k/mo + 3% success | 9–18 months |
+| Institutional Intelligence Licence | €25–50k/year | Annual, renewing |
+
+**On pricing.** The current level is almost certainly low, and not by 20%. A family
+office cannot distinguish a €5k invoice from noise. Institutional pricing is itself the
+credibility signal; underpricing disqualifies you from the buyer you want.
+
+---
+
+## 8. First 90 days
 
 | Weeks | Action | Output |
 | --- | --- | --- |
-| 1–2 | Kill "creative studio" positioning. Rewrite site around the corridor. Delete invented stats. | Live site matches the real business |
-| 3–4 | Publish three SKUs with public pricing | Prospects self-qualify before first call |
-| 5–8 | Build named list of 40 institutional targets. Enrich via Scalist, track in Folk. | Pipeline exists as data, not memory |
-| 9–12 | 20 first meetings | **2 signed pilot programs** |
-| Ongoing | Newsletter to 5k subscribers; LinkedIn per the 90-day plan | Engine 1 funnel primed |
+| 1–2 | Set the Nexus8234 decision date. Move GWK operations to volunteers. | Two attention drains closed |
+| 1–2 | Publish three SKUs with prices | Prospects self-qualify before first call |
+| 3–6 | Build a named list of 40 targets — family offices, EU manufacturers with Korea exposure, Korean SME succession candidates. Enrich and track in CRM. | Pipeline exists as data, not memory |
+| 5–8 | Sell one-yes Nexus products only: one PoC, one retainer | Nexus8234 unpauses on evidence, not hope |
+| 7–12 | 20 first meetings | **2 signed retainers, 1 mandate in diligence** |
+| Ongoing | Kimchi & Capital to 5k subscribers | Engine 1 funnel primed |
 
 ---
 
-## 6. Three uncomfortable conclusions
+## 9. Three conclusions
 
-**Being *the* Spain–Korea person is worth roughly 10x being *a* Spain–Korea person.**
-Four businesses produces a generalist in four markets rather than the default answer in
-one. Depth is the entire moat here.
+**The real asset is not advisory skill, and it is not any of the four brands.** It is
+17 years in Korea, a Korean network built over two decades, and European access. That
+combination is close to unrepeatable, and it is currently rented at consulting rates
+when it commands deal rates and institutional rates.
 
-**The core asset is not advisory skill.** It is 17 years in Korea, a Korean network that
-took two decades to build, and European access. That combination is close to
-unrepeatable. It is currently being rented at consulting rates when it commands deal
-rates and institutional rates.
+**Being *the* Korea corridor person is worth roughly 10x being *a* Korea corridor
+person.** Four businesses produces a generalist in four markets rather than the default
+answer in one.
 
-**The website was sufficient to diagnose all of the above.** Nobody commits €300k of
-agency budget to a creative studio. Fix the positioning before spending another euro on
-lead generation.
+**Every hour should either close a deal or build an asset that closes deals unattended.**
+Brand work does neither. There is enough brand.
 
 ---
 
-## 7. Immediate next step
+## Appendix — open items on this repository
 
-Rewrite `index.html` for corridor positioning:
-
-- Hero: what the corridor actually does, for whom
-- Services → the four Nexus arms (Xplore, Impulse, Lab, Strategy)
-- Portfolio → real engagements, or removed pending real ones
-- Stats → real figures or removed
-- Contact → route institutional enquiries separately from general enquiries
+- GitHub Pages was enabled on a public repository, serving the placeholder
+  creative-studio page with five fabricated case studies and four invented statistics.
+  To be taken offline by the owner.
+- `index.html` has been rewritten to the locked Nexus8234 parent-mode identity on the
+  branch `claude/billionaire-coach-scaling-4t7z14`. Not merged to `master`.
+- Two items block that page going live: the Korea Innovation Week block still carries
+  the June 2026 dates, and the Ecosystem section has no real engagements. Both are
+  marked TODO in the HTML.
