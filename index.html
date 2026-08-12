@@ -1,354 +1,348 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-mode="parent">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NEXUS 82/34 — Creative Studio</title>
-    <meta name="description" content="NEXUS 82/34 is a creative studio specializing in branding, digital design, and media production.">
+    <title>NEXUS 82/34 — The Spain ↔ Korea Bridge</title>
+    <meta name="description" content="Nexus8234 connects Spanish industry with Korean innovation, and the other way around. Innovation trips, an accelerator, proofs of concept, and advisory. Offices in Santiago de Compostela and Seoul.">
+    <meta property="og:title" content="NEXUS 82/34 — The Spain ↔ Korea Bridge">
+    <meta property="og:description" content="The bridge between Spain and the frontier of Korea. Four services. One bridge.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nexus8234.com">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="nav" id="nav">
         <div class="nav-inner">
-            <a href="#hero" class="nav-logo">
+            <a href="#hero" class="nav-logo" aria-label="Nexus 82 34 — home">
                 <span class="logo-text">NEXUS</span>
                 <span class="logo-badge">
                     <span class="logo-num-top">82</span>
                     <span class="logo-num-bot">34</span>
                 </span>
             </a>
-            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
             <ul class="nav-links" id="navLinks">
-                <li><a href="#about">About</a></li>
+                <li><a href="#moment">The Moment</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#ecosystem">Ecosystem</a></li>
                 <li><a href="#mediakit">Media Kit</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- ================= HERO — Ink hero page ================= -->
     <section class="hero" id="hero">
-        <div class="hero-bg">
-            <div class="hero-grid"></div>
-        </div>
         <div class="hero-content">
-            <div class="hero-logo" data-animate="fade-up">
-                <span class="hero-logo-text">NEXUS</span>
-                <span class="hero-logo-badge">
-                    <span class="hero-num-top">82</span>
-                    <span class="hero-num-bot">34</span>
-                </span>
-            </div>
-            <p class="hero-tagline" data-animate="fade-up" data-delay="200">Creative Studio &mdash; Branding &bull; Design &bull; Media</p>
-            <div class="hero-cta" data-animate="fade-up" data-delay="400">
-                <a href="#portfolio" class="btn btn-primary">View Our Work</a>
-                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            <span class="label label--hero" data-animate="fade-up">Santiago de Compostela · Seoul</span>
+            <h1 class="hero-title" data-animate="fade-up" data-delay="150">
+                The bridge between Spain<br>
+                and the frontier of <em>Korea.</em>
+            </h1>
+            <p class="hero-sub" data-animate="fade-up" data-delay="300">
+                Connecting Spanish industry with Korean innovation, and the other way around.
+                Built on institutional trust, designed for real outcomes.
+            </p>
+            <div class="hero-cta" data-animate="fade-up" data-delay="450">
+                <a href="#services" class="btn btn-primary">Four services. One bridge.</a>
+                <a href="#contact" class="btn btn-outline">Are you crossing the bridge?</a>
             </div>
         </div>
-        <div class="hero-scroll">
+        <div class="hero-scroll" aria-hidden="true">
             <span>Scroll</span>
             <div class="scroll-line"></div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="section about" id="about">
+    <!-- ================= THE MOMENT — Warm-white content page ================= -->
+    <section class="section moment" id="moment">
         <div class="container">
             <div class="section-header" data-animate="fade-up">
-                <span class="section-label">01 / About</span>
-                <h2 class="section-title">We craft bold<br>digital experiences.</h2>
+                <span class="label">01 / Why now</span>
+                <h2 class="section-title">Korea is <em>the present.</em></h2>
             </div>
-            <div class="about-grid">
-                <div class="about-text" data-animate="fade-up" data-delay="200">
-                    <p class="about-lead">NEXUS 82/34 is a multidisciplinary creative studio at the intersection of design, technology, and storytelling.</p>
-                    <p>We partner with forward-thinking brands and organizations to create memorable identities, immersive digital products, and compelling media content that resonates with audiences worldwide.</p>
-                    <p>Founded on the principle that great design drives meaningful connections, we bring together strategy, aesthetics, and innovation to deliver work that stands apart.</p>
+
+            <div class="moment-grid">
+                <div class="moment-text" data-animate="fade-up" data-delay="150">
+                    <p class="lead">You think Korea is the next market. <em>It is the current one.</em></p>
+                    <p>Nexus8234 is the corridor between Spain and Korea. Country code 34 and country code 82. We run four services as a single connected practice: innovation trips, an accelerator, proofs of concept, and advisory.</p>
+                    <p>Spanish industry has depth in manufacturing, food, energy, and infrastructure. Korea has the fastest concept-to-revenue cycle in the OECD and a corporate structure that decides in weeks, not quarters. The two rarely meet, because nobody owns the corridor between them.</p>
+                    <p class="counter">We built the programme we wished existed when we first tried to break into Korea's ecosystem.</p>
                 </div>
-                <div class="about-stats" data-animate="fade-up" data-delay="400">
+
+                <div class="stat-row" data-animate="fade-up" data-delay="300">
                     <div class="stat">
-                        <span class="stat-number" data-count="120">0</span>
-                        <span class="stat-label">Projects Delivered</span>
+                        <span class="stat-number">#2</span>
+                        <span class="stat-desc">OECD R&amp;D intensity, at 4.96% of GDP</span>
+                        <span class="stat-source">OECD MSTI, 2023</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number" data-count="45">0</span>
-                        <span class="stat-label">Global Clients</span>
+                        <span class="stat-number">$1.1B</span>
+                        <span class="stat-desc">KASA space program by 2027</span>
+                        <span class="stat-source">KASA PLAN, 2024</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number" data-count="8">0</span>
-                        <span class="stat-label">Years of Craft</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number" data-count="15">0</span>
-                        <span class="stat-label">Awards Won</span>
+                        <span class="stat-number">12 mo</span>
+                        <span class="stat-desc">Concept to revenue in Korea</span>
+                        <span class="stat-source">Korean chaebol average — the speed you compete against</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
+    <!-- ================= SERVICES — the four-service map ================= -->
     <section class="section services" id="services">
         <div class="container">
             <div class="section-header" data-animate="fade-up">
-                <span class="section-label">02 / Services</span>
-                <h2 class="section-title">What we do best.</h2>
+                <span class="label">02 / Our services</span>
+                <h2 class="section-title">Four services. One <em>bridge.</em></h2>
+                <p class="section-sub">Together, they compound. A corporate that starts with a trip can progress into a proof-of-concept, into an acceleration cohort, into long-term advisory.</p>
             </div>
+
             <div class="services-grid">
-                <div class="service-card" data-animate="fade-up" data-delay="100">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
-                            <rect x="6" y="6" width="36" height="36" rx="4"/>
-                            <path d="M6 18h36M18 18v24"/>
-                        </svg>
-                    </div>
-                    <h3>Brand Identity</h3>
-                    <p>Logo design, visual systems, brand guidelines, and strategic positioning that define who you are.</p>
-                </div>
-                <div class="service-card" data-animate="fade-up" data-delay="200">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
-                            <rect x="4" y="8" width="40" height="28" rx="3"/>
-                            <path d="M16 42h16M24 36v6"/>
-                        </svg>
-                    </div>
-                    <h3>Digital Design</h3>
-                    <p>Web design, UI/UX, interactive experiences, and digital products built for impact.</p>
-                </div>
-                <div class="service-card" data-animate="fade-up" data-delay="300">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
-                            <circle cx="24" cy="24" r="18"/>
-                            <polygon points="20,16 34,24 20,32"/>
-                        </svg>
-                    </div>
-                    <h3>Media Production</h3>
-                    <p>Video production, motion graphics, photography, and content creation that tells your story.</p>
-                </div>
-                <div class="service-card" data-animate="fade-up" data-delay="400">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
-                            <path d="M24 4l6 12 14 2-10 10 2 14-12-6-12 6 2-14L4 18l14-2z"/>
-                        </svg>
-                    </div>
-                    <h3>Creative Strategy</h3>
-                    <p>Market research, campaign planning, content strategy, and creative direction that drives results.</p>
-                </div>
+                <article class="service-card service-card--xplore" data-animate="fade-up" data-delay="100">
+                    <span class="service-num">01</span>
+                    <span class="service-cat">Innovation Trips</span>
+                    <h3 class="service-name">Nexus <em>Xplore.</em></h3>
+                    <p class="service-tag">The room is the product.</p>
+                    <p>Five-day curated delegations to Seoul. Twenty executives per edition. Institutional briefings with GDIN and KITA, corporate visits at LG, Hyundai, and Hanwha. The week ends with signed intent. Two editions per year, by application.</p>
+                </article>
+
+                <article class="service-card service-card--impulse" data-animate="fade-up" data-delay="200">
+                    <span class="service-num">02</span>
+                    <span class="service-cat">Accelerator</span>
+                    <h3 class="service-name">Nexus <em>Impulse.</em></h3>
+                    <p class="service-tag">Korea rewards residents, not visitors.</p>
+                    <p>A three-month residency in Seoul. We filter startups through Spain's leading accelerators, form a cohort of six to ten, and bring them to Korea for twelve weeks of corporate access and deal execution. The outcome is a signed JV, PoC or partnership, not a certificate.</p>
+                </article>
+
+                <article class="service-card service-card--lab" data-animate="fade-up" data-delay="300">
+                    <span class="service-num">03</span>
+                    <span class="service-cat">Proofs of Concept</span>
+                    <h3 class="service-name">Nexus <em>Lab.</em></h3>
+                    <p class="service-tag">Validation before commitment.</p>
+                    <p>A structured PoC framework in both directions. Korean companies validating European product-market fit with a Spanish corporate. Spanish startups running PoCs in Korean industrial environments. Medtech, space tech, cybersecurity. Six to twelve weeks. CDTI and KIAT co-funding pathways.</p>
+                </article>
+
+                <article class="service-card service-card--strategy" data-animate="fade-up" data-delay="400">
+                    <span class="service-num">04</span>
+                    <span class="service-cat">Advisory</span>
+                    <h3 class="service-name">Nexus <em>Strategy.</em></h3>
+                    <p class="service-tag">Long-term engagements for the corridor.</p>
+                    <p>Multi-quarter advisory for institutions, corporates, and funds building a real presence across Spain and Korea. Strategy, representation, partner development, ongoing operations. Senior operators in both Madrid and Seoul. Quarterly retainer.</p>
+                </article>
+            </div>
+
+            <!--
+              TODO — LAURA: the Korea Innovation Week dates below are the June 2026 edition,
+              which has already taken place. Replace with the next edition (dates + seat count)
+              before this page goes live, or the flagship block will read as stale.
+            -->
+            <div class="flagship" data-animate="fade-up" data-delay="200">
+                <span class="label label--flagship">Flagship · Nexus Xplore</span>
+                <h3 class="flagship-title">Korea Innovation Week</h3>
+                <p class="flagship-body">
+                    Seoul · 15–19 June 2026 · 20 seats, application-based.
+                    Three days of GDIN program, plus two days of NextRise with KITA.
+                </p>
+                <p class="flagship-cta">Request your seat. <span>Respond within 24h.</span></p>
+                <a class="flagship-mail" href="mailto:laura@nexus8234.com?subject=Korea%20Innovation%20Week">laura@nexus8234.com</a>
             </div>
         </div>
     </section>
 
-    <!-- Portfolio Section -->
-    <section class="section portfolio" id="portfolio">
+    <!-- ================= ECOSYSTEM ================= -->
+    <section class="section ecosystem" id="ecosystem">
         <div class="container">
             <div class="section-header" data-animate="fade-up">
-                <span class="section-label">03 / Portfolio</span>
-                <h2 class="section-title">Selected work.</h2>
+                <span class="label">03 / Ecosystem</span>
+                <h2 class="section-title">Where Spain and Korea <em>already meet.</em></h2>
+                <p class="section-sub">We don't build alone. We orchestrate. The corridor runs on institutional relationships on both sides.</p>
             </div>
-            <div class="portfolio-grid">
-                <div class="portfolio-item portfolio-item--wide" data-animate="fade-up" data-delay="100">
-                    <div class="portfolio-img" style="background: linear-gradient(135deg, #1a1a2e, #16213e);">
-                        <div class="portfolio-img-inner">
-                            <span class="portfolio-placeholder">AURORA</span>
-                        </div>
-                    </div>
-                    <div class="portfolio-info">
-                        <span class="portfolio-category">Brand Identity</span>
-                        <h3>Aurora Tech</h3>
-                        <p>Complete rebrand for a leading AI startup, including visual identity, website, and launch campaign.</p>
-                    </div>
+
+            <div class="eco-grid">
+                <div class="eco-col" data-animate="fade-up" data-delay="100">
+                    <span class="eco-side">Korea · 82</span>
+                    <ul class="eco-list">
+                        <li><strong>GDIN</strong><span>Global Digital Innovation Network. Program access and PoC matching.</span></li>
+                        <li><strong>KITA</strong><span>Korea International Trade Association. NextRise and corporate introductions.</span></li>
+                    </ul>
                 </div>
-                <div class="portfolio-item" data-animate="fade-up" data-delay="200">
-                    <div class="portfolio-img" style="background: linear-gradient(135deg, #2d1b69, #11998e);">
-                        <div class="portfolio-img-inner">
-                            <span class="portfolio-placeholder">VELO</span>
-                        </div>
-                    </div>
-                    <div class="portfolio-info">
-                        <span class="portfolio-category">Digital Design</span>
-                        <h3>Velo Sports</h3>
-                        <p>E-commerce platform design with immersive product experiences.</p>
-                    </div>
+                <div class="eco-col" data-animate="fade-up" data-delay="200">
+                    <span class="eco-side">Spain · 34</span>
+                    <ul class="eco-list">
+                        <li><strong>ICEX</strong><span>Engaged on Spanish industrial and trade programming.</span></li>
+                        <li><strong>CDTI</strong><span>Co-funding pathway for validated cross-corridor PoCs.</span></li>
+                    </ul>
                 </div>
-                <div class="portfolio-item" data-animate="fade-up" data-delay="300">
-                    <div class="portfolio-img" style="background: linear-gradient(135deg, #0f3443, #34e89e);">
-                        <div class="portfolio-img-inner">
-                            <span class="portfolio-placeholder">ECHO</span>
-                        </div>
-                    </div>
-                    <div class="portfolio-info">
-                        <span class="portfolio-category">Media Production</span>
-                        <h3>Echo Festival</h3>
-                        <p>Full media package including promo films, photography, and social content.</p>
-                    </div>
-                </div>
-                <div class="portfolio-item" data-animate="fade-up" data-delay="200">
-                    <div class="portfolio-img" style="background: linear-gradient(135deg, #434343, #000000);">
-                        <div class="portfolio-img-inner">
-                            <span class="portfolio-placeholder">MONO</span>
-                        </div>
-                    </div>
-                    <div class="portfolio-info">
-                        <span class="portfolio-category">Creative Strategy</span>
-                        <h3>Mono Magazine</h3>
-                        <p>Editorial direction and visual strategy for a luxury lifestyle publication.</p>
-                    </div>
-                </div>
-                <div class="portfolio-item portfolio-item--wide" data-animate="fade-up" data-delay="300">
-                    <div class="portfolio-img" style="background: linear-gradient(135deg, #0c0c0c, #3a3a3a);">
-                        <div class="portfolio-img-inner">
-                            <span class="portfolio-placeholder">APEX</span>
-                        </div>
-                    </div>
-                    <div class="portfolio-info">
-                        <span class="portfolio-category">Brand Identity + Digital</span>
-                        <h3>Apex Ventures</h3>
-                        <p>End-to-end brand creation for a venture capital firm, from naming to digital presence.</p>
-                    </div>
+                <div class="eco-col" data-animate="fade-up" data-delay="300">
+                    <span class="eco-side">The corridor</span>
+                    <ul class="eco-list">
+                        <li><strong>KIAT</strong><span>Korea Institute for Advancement of Technology. PoC co-funding pathway.</span></li>
+                        <li><strong>The gap</strong><span>A corridor no one owns. That is the whole opportunity.</span></li>
+                    </ul>
                 </div>
             </div>
+
+            <!--
+              TODO — LAURA: add real completed engagements here (client, service, outcome).
+              The previous version of this page carried five invented case studies
+              (Aurora Tech, Velo Sports, Echo Festival, Mono Magazine, Apex Ventures).
+              They have been removed. Do not replace them with anything that did not happen.
+            -->
         </div>
     </section>
 
-    <!-- Media Kit Section -->
+    <!-- ================= MEDIA KIT ================= -->
     <section class="section mediakit" id="mediakit">
         <div class="container">
             <div class="section-header" data-animate="fade-up">
-                <span class="section-label">04 / Media Kit</span>
-                <h2 class="section-title">Brand assets &amp; press.</h2>
+                <span class="label">04 / Media Kit</span>
+                <h2 class="section-title">Brand assets &amp; <em>press.</em></h2>
+                <p class="section-sub">Official assets for press, partnerships, and institutional use. Please follow the brand guidelines when using these materials.</p>
             </div>
-            <div class="mediakit-content">
-                <div class="mediakit-text" data-animate="fade-up" data-delay="200">
-                    <p>Download our official brand assets for press, partnerships, and media use. Please follow our brand guidelines when using these materials.</p>
-                </div>
-                <div class="mediakit-grid">
-                    <div class="mediakit-card" data-animate="fade-up" data-delay="100">
-                        <div class="mediakit-preview" style="background:#000;">
-                            <div class="mk-logo-white">
-                                <span class="mk-text">NEXUS</span>
-                                <span class="mk-badge"><span>82</span><span>34</span></span>
-                            </div>
-                        </div>
-                        <div class="mediakit-card-info">
-                            <h4>Logo — Dark</h4>
-                            <p>White logo on dark background. PNG, SVG</p>
+
+            <div class="mediakit-grid">
+                <div class="mediakit-card" data-animate="fade-up" data-delay="100">
+                    <div class="mediakit-preview mediakit-preview--ink">
+                        <div class="mk-logo mk-logo--light">
+                            <span class="mk-text">NEXUS</span>
+                            <span class="mk-badge"><span>82</span><span>34</span></span>
                         </div>
                     </div>
-                    <div class="mediakit-card" data-animate="fade-up" data-delay="200">
-                        <div class="mediakit-preview" style="background:#fff;">
-                            <div class="mk-logo-black">
-                                <span class="mk-text">NEXUS</span>
-                                <span class="mk-badge"><span>82</span><span>34</span></span>
-                            </div>
-                        </div>
-                        <div class="mediakit-card-info">
-                            <h4>Logo — Light</h4>
-                            <p>Black logo on light background. PNG, SVG</p>
-                        </div>
-                    </div>
-                    <div class="mediakit-card" data-animate="fade-up" data-delay="300">
-                        <div class="mediakit-preview mediakit-colors">
-                            <div class="color-swatch" style="background:#000;"></div>
-                            <div class="color-swatch" style="background:#fff; border:1px solid #333;"></div>
-                            <div class="color-swatch" style="background:#888;"></div>
-                        </div>
-                        <div class="mediakit-card-info">
-                            <h4>Color Palette</h4>
-                            <p>Primary brand colors and usage guidelines</p>
-                        </div>
-                    </div>
-                    <div class="mediakit-card" data-animate="fade-up" data-delay="400">
-                        <div class="mediakit-preview mediakit-type">
-                            <span class="type-sample">Aa</span>
-                            <span class="type-name">Inter</span>
-                        </div>
-                        <div class="mediakit-card-info">
-                            <h4>Typography</h4>
-                            <p>Brand typeface specimens and type scale</p>
-                        </div>
+                    <div class="mediakit-card-info">
+                        <h4>Wordmark — Ink</h4>
+                        <p>Warm White on Ink. PNG, SVG</p>
                     </div>
                 </div>
-                <div class="mediakit-boilerplate" data-animate="fade-up" data-delay="300">
-                    <h3>Company Boilerplate</h3>
-                    <blockquote>
-                        NEXUS 82/34 is a multidisciplinary creative studio specializing in brand identity, digital design, media production, and creative strategy. We partner with visionary brands to create bold, memorable experiences that connect and inspire.
-                    </blockquote>
+
+                <div class="mediakit-card" data-animate="fade-up" data-delay="200">
+                    <div class="mediakit-preview mediakit-preview--bone">
+                        <div class="mk-logo mk-logo--dark">
+                            <span class="mk-text">NEXUS</span>
+                            <span class="mk-badge"><span>82</span><span>34</span></span>
+                        </div>
+                    </div>
+                    <div class="mediakit-card-info">
+                        <h4>Wordmark — Warm White</h4>
+                        <p>Ink on Warm White. PNG, SVG</p>
+                    </div>
                 </div>
+
+                <div class="mediakit-card" data-animate="fade-up" data-delay="300">
+                    <div class="mediakit-preview mediakit-colors">
+                        <span class="swatch" style="background:#0A101C" title="Ink #0A101C"></span>
+                        <span class="swatch" style="background:#F5F3EE" title="Warm White #F5F3EE"></span>
+                        <span class="swatch" style="background:#EB634B" title="Gotgam #EB634B"></span>
+                        <span class="swatch" style="background:#3C448D" title="Pojagi #3C448D"></span>
+                        <span class="swatch" style="background:#7CB5A4" title="Celadon #7CB5A4"></span>
+                        <span class="swatch" style="background:#C9A037" title="Azafrán #C9A037"></span>
+                    </div>
+                    <div class="mediakit-card-info">
+                        <h4>Colour Palette</h4>
+                        <p>Ink · Warm White · Gotgam · Pojagi · Celadon · Azafrán</p>
+                    </div>
+                </div>
+
+                <div class="mediakit-card" data-animate="fade-up" data-delay="400">
+                    <div class="mediakit-preview mediakit-type">
+                        <span class="type-sample">Aa</span>
+                        <span class="type-name">Georgia · Calibri</span>
+                    </div>
+                    <div class="mediakit-card-info">
+                        <h4>Typography</h4>
+                        <p>Georgia for display. Calibri for body and UI.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="boilerplate" data-animate="fade-up" data-delay="200">
+                <span class="label">Company boilerplate</span>
+                <blockquote>
+                    Nexus8234 is the bridge between Spain and Korea. Co-founded by Laura Valls in Seoul and Álvaro Nieves in Santiago de Compostela, the company runs four services as a single connected practice: innovation trips, an accelerator, proofs of concept, and advisory. Nexus8234 works with GDIN and KITA in Korea and is engaged with ICEX and the CDTI pathway in Spain.
+                </blockquote>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- ================= CONTACT ================= -->
     <section class="section contact" id="contact">
         <div class="container">
             <div class="section-header" data-animate="fade-up">
-                <span class="section-label">05 / Contact</span>
-                <h2 class="section-title">Let's create<br>something together.</h2>
+                <span class="label">05 / Contact</span>
+                <h2 class="section-title">Are you crossing <em>the bridge?</em></h2>
+                <p class="section-sub">Response guaranteed in less than 24 hours.</p>
             </div>
+
             <div class="contact-grid">
-                <div class="contact-info" data-animate="fade-up" data-delay="200">
+                <div class="contact-info" data-animate="fade-up" data-delay="150">
                     <div class="contact-block">
-                        <h4>General Inquiries</h4>
-                        <a href="mailto:hello@nexus8234.com">hello@nexus8234.com</a>
+                        <span class="label">Co-founder · Seoul</span>
+                        <h4>Laura Valls</h4>
+                        <p>Korea operations &amp; program design</p>
+                        <a href="mailto:laura@nexus8234.com">laura@nexus8234.com</a>
                     </div>
                     <div class="contact-block">
-                        <h4>New Business</h4>
-                        <a href="mailto:projects@nexus8234.com">projects@nexus8234.com</a>
+                        <span class="label">Co-founder · Santiago</span>
+                        <h4>Álvaro Nieves</h4>
+                        <p>Spain &amp; institutional partnerships</p>
+                        <a href="mailto:alvaro@nexus8234.com">alvaro@nexus8234.com</a>
                     </div>
                     <div class="contact-block">
-                        <h4>Press &amp; Media</h4>
+                        <span class="label">Press &amp; media</span>
                         <a href="mailto:press@nexus8234.com">press@nexus8234.com</a>
                     </div>
                     <div class="contact-social">
-                        <a href="#" aria-label="Instagram">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
-                        </a>
-                        <a href="#" aria-label="LinkedIn">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M8 11v5M8 8v.01M12 16v-5c0-1 1-2 2-2s2 1 2 2v5"/></svg>
-                        </a>
-                        <a href="#" aria-label="Twitter / X">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4l6.5 8L4 20h2l5.5-6.8L16 20h4l-6.8-8.5L19.5 4H18l-5 6.2L9 4H4z"/></svg>
-                        </a>
-                        <a href="#" aria-label="Behance">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M7 8h3c1.1 0 2 .9 2 2s-.9 2-2 2H7V8zM7 12h3.5c1.1 0 2 .9 2 2s-.9 2-2 2H7v-4zM15 10h4M17 8v.01"/></svg>
+                        <a href="https://www.linkedin.com/company/nexus8234" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="2"/><path d="M8 11v5M8 8v.01M12 16v-5c0-1 1-2 2-2s2 1 2 2v5"/></svg>
                         </a>
                     </div>
                 </div>
+
                 <form class="contact-form" data-animate="fade-up" data-delay="300" id="contactForm">
                     <div class="form-group">
-                        <input type="text" id="name" placeholder="Your Name" required>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" id="email" placeholder="Your Email" required>
+                        <label for="company">Company</label>
+                        <input type="text" id="company" name="company">
                     </div>
                     <div class="form-group">
-                        <select id="inquiry">
-                            <option value="" disabled selected>Type of Inquiry</option>
-                            <option>New Project</option>
-                            <option>Partnership</option>
-                            <option>Press / Media</option>
-                            <option>General</option>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inquiry">Interest</label>
+                        <select id="inquiry" name="inquiry">
+                            <option value="" disabled selected>Select</option>
+                            <option>Nexus Xplore — Innovation Trips</option>
+                            <option>Nexus Impulse — Accelerator</option>
+                            <option>Nexus Lab — Proofs of Concept</option>
+                            <option>Nexus Strategy — Advisory</option>
+                            <option>Institutional partnership</option>
+                            <option>Press &amp; media</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <textarea id="message" placeholder="Tell us about your project..." rows="5" required></textarea>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    <button type="submit" class="btn btn-primary btn-full">Send</button>
+                    <p class="form-note">Opens in your mail client, addressed to Laura and Álvaro.</p>
                 </form>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- ================= FOOTER ================= -->
     <footer class="footer">
         <div class="container footer-inner">
             <div class="footer-logo">
@@ -358,13 +352,8 @@
                     <span class="logo-num-bot">34</span>
                 </span>
             </div>
-            <p class="footer-copy">&copy; 2026 NEXUS 82/34. All rights reserved.</p>
-            <div class="footer-links">
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#contact">Contact</a>
-            </div>
+            <p class="footer-line">NEXUS 82 34 · The Spain ↔ Korea Bridge</p>
+            <p class="footer-meta">Santiago de Compostela · Seoul &nbsp;·&nbsp; nexus8234.com</p>
         </div>
     </footer>
 
